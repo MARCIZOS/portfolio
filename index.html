@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"
+    content="Kush Agarwal, LeetCode kush0809, Portfolio, Kush Agarwal NIET, CSE-AI, Backend Engineer, Machine Learning, Eduswap, World Master, FAISS, Semantic Search, FastAPI, Python Developer" />
+  <meta name="description"
+    content="Portfolio of Kush Agarwal - CSE-AI Undergraduate, Machine Learning & Scalable Backend Engineer." />
+
+  <!-- Preconnect to Font & CDN Origins -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Kush Agarwal | CSE-AI & Scalable Backend Engineer</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <!-- Preloader -->
+  <div class="loader" id="loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header>
+    <a href="#home" class="logo">
+      <img class="logo-avatar" src="./assets/images/kush_avatar.jpg" alt="Kush Agarwal">
+      <span>Kush <span class="gradient-text">Agarwal</span></span>
+    </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#systems">Systems</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#leetcode">LeetCode</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-controls">
+      <!-- Dark/Light Mode Theme Switcher -->
+      <label class="theme-switch" aria-label="Toggle Dark Mode">
+        <input type="checkbox" id="darkmode-toggle">
+        <span class="slider">
+          <i class="fas fa-sun sun-icon"></i>
+          <i class="fas fa-moon moon-icon"></i>
+        </span>
+      </label>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <!-- Particle Depth Layer -->
+    <div id="particles-js"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag">
+        <i class="fas fa-laptop-code"></i> CSE-AI 2023–2027 | ML & Backend Engineer
+      </div>
+
+      <h1 class="hero-title">
+        Hi There,<br /> I'm <span class="gradient-text">Kush Agarwal</span>
+      </h1>
+
+      <div class="hero-typing">
+        i am into <span class="typed-text"></span>
+      </div>
+
+      <p class="hero-description">
+        I spend most of my time where machine learning meets production software — building models that make real decisions, wrapped in APIs, databases, and network infrastructure solid enough to ship.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <span>Explore Projects</span>
+          <i class="fas fa-arrow-down"></i>
+        </a>
+        <a href="#leetcode" class="btn btn-secondary">
+          <span>LeetCode Stats</span>
+          <i class="fas fa-code"></i>
+        </a>
+      </div>
+
+      <div class="social-links">
+        <a class="social-icon" href="https://linkedin.com/in/" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a class="social-icon" href="https://github.com/" target="_blank" aria-label="GitHub" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a class="social-icon" href="https://leetcode.com/u/kush0809/" target="_blank" aria-label="LeetCode" title="LeetCode @kush0809">
+          <i class="fas fa-code"></i>
+        </a>
+        <a class="social-icon" href="mailto:kushagarwal0805@gmail.com" aria-label="Email" title="Direct Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Side 3D Bot Centerpiece (In place of Spline object) -->
+    <div class="hero-bot-container">
+      <div class="hero-bot-speech" id="botSpeech">Hi! I'm Kush's 3D AI Companion! Ask me anything below! 🚀</div>
+      <div class="hero-bot-card" id="botCard" title="Interactive 3D Bot Companion">
+        <img src="./assets/images/3d_bot.jpg" alt="Interactive 3D Robot Character">
+      </div>
+    </div>
+  </section>
+
+  <!-- Systems & Network Mindset ("My World") -->
+  <section class="systems-section" id="systems">
+    <h2 class="section-heading">
+      <i class="fas fa-network-wired"></i> Systems & <span class="gradient-text">Network Mindset</span>
+    </h2>
+    <p class="section-subtitle">
+      Building resilient APIs, vector retrieval engines, and network-aware infrastructure capable of handling real-world loads.
+    </p>
+
+    <div class="systems-grid">
+      <!-- Left: Profile Highlight Card -->
+      <div class="info-card profile-highlight-card">
+        <div class="profile-avatar-wrapper">
+          <img src="./assets/images/kush_avatar.jpg" alt="Kush Agarwal Profile Avatar">
+        </div>
+        <h3>Kush Agarwal</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.3rem;">
+          CSE-AI @ NIET | CGPA: 8.66
+        </p>
+        <span class="network-badge" style="margin-top: 1rem;">
+          <i class="fas fa-check-circle"></i> Machine Learning & Backend
+        </span>
+      </div>
+
+      <!-- Center: 3D Animated Network Nodes Graph -->
+      <div class="info-card network-globe-card">
+        <canvas id="network-nodes-canvas"></canvas>
+        <div class="network-globe-content">
+          <span class="network-badge">Microservices Topology</span>
+          <h3 style="margin-top: 0.5rem; font-size: 1.2rem;">High-Throughput Architectures</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.2rem;">
+            REST APIs, Databases & Distributed Vector Search (FAISS)
+          </p>
+        </div>
+      </div>
+
+      <!-- Right: Social Box Grid -->
+      <div class="info-card">
+        <h3 style="font-size: 1.2rem; margin-bottom: 1rem; text-align: center;">Find Me Online</h3>
+        <div class="social-grid-boxes">
+          <a href="https://github.com/" target="_blank" class="social-box-item">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/in/" target="_blank" class="social-box-item">
+            <i class="fab fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://leetcode.com/u/kush0809/" target="_blank" class="social-box-item">
+            <i class="fas fa-terminal"></i>
+            <span>LeetCode</span>
+          </a>
+          <a href="mailto:kushagarwal0805@gmail.com" class="social-box-item">
+            <i class="fas fa-envelope"></i>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about" id="about">
+    <h2 class="section-heading">
+      <i class="fas fa-user-code"></i> About <span class="gradient-text">Me</span>
+    </h2>
+
+    <div class="about-container">
+      <div class="about-image">
+        <img src="./assets/images/kush_avatar.jpg" alt="Kush Agarwal About Photo">
+      </div>
+
+      <div class="about-content">
+        <h3>I'm Kush Agarwal</h3>
+        <span class="about-role-tag">Software & Machine Learning Engineer</span>
+
+        <p class="about-text">
+          I am a B.Tech CSE-AI undergraduate at <strong>Noida Institute of Engineering & Technology</strong> (2023–2027) with an academic CGPA of <strong>8.66</strong>. My technical drive sits right where machine learning meets production software — creating models that make real decisions, wrapped in APIs, databases, and infrastructure solid enough to actually ship.
+          <br><br>
+          My core technical focus includes recommendation engines, FAISS semantic vector search, log analytics, anomaly detection, and backend REST APIs. I thrive on problems that force me to work across the whole application stack rather than stay in a single layer.
+        </p>
+
+        <div class="about-meta-grid">
+          <div class="meta-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span>Email</span>
+              <strong>kushagarwal0805@gmail.com</strong>
+            </div>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <span>Phone</span>
+              <strong>+91-6394354239</strong>
+            </div>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <span>Education</span>
+              <strong>B.Tech CSE-AI (8.66 CGPA)</strong>
+            </div>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-code"></i>
+            <div>
+              <span>Specialization</span>
+              <strong>ML Production & Backend</strong>
+            </div>
+          </div>
+        </div>
+
+        <a href="mailto:kushagarwal0805@gmail.com" class="btn btn-primary">
+          <span>Get In Touch</span>
+          <i class="fas fa-chevron-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Bubble Cloud Section -->
+  <section class="tech-stack-section" id="skills">
+    <h2 class="section-heading">
+      <span class="gradient-text">Tech</span> Stack
+    </h2>
+    <p class="section-subtitle">
+      Hover over the interactive floating bubble cloud to inspect tools, frameworks, languages, and core systems.
+    </p>
+
+    <div class="tech-cloud" id="techCloud">
+      <!-- Python (XL) -->
+      <div class="tech-item size-xl">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fab fa-python" style="font-size: 3rem; color: #3776AB;"></i>
+          </div>
+        </div>
+        <div class="tech-name">Python</div>
+      </div>
+
+      <!-- C++ (LG) -->
+      <div class="tech-item size-lg">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <span style="font-size: 1.8rem; font-weight: 800; color: #00599C; font-family: var(--font-mono);">C++</span>
+          </div>
+        </div>
+        <div class="tech-name">C++</div>
+      </div>
+
+      <!-- FastAPI (LG) -->
+      <div class="tech-item size-lg">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fas fa-bolt" style="font-size: 2.2rem; color: #059669;"></i>
+          </div>
+        </div>
+        <div class="tech-name">FastAPI</div>
+      </div>
+
+      <!-- FAISS Semantic Search (XL) -->
+      <div class="tech-item size-xl">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fas fa-brain" style="font-size: 3rem; color: #8B5CF6;"></i>
+          </div>
+        </div>
+        <div class="tech-name">FAISS Vector Search</div>
+      </div>
+
+      <!-- Node.js (MD) -->
+      <div class="tech-item size-md">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fab fa-node-js" style="font-size: 2.2rem; color: #68A063;"></i>
+          </div>
+        </div>
+        <div class="tech-name">Node.js</div>
+      </div>
+
+      <!-- React.js (MD) -->
+      <div class="tech-item size-md">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fab fa-react" style="font-size: 2.2rem; color: #61DAFB;"></i>
+          </div>
+        </div>
+        <div class="tech-name">React.js</div>
+      </div>
+
+      <!-- PostgreSQL (MD) -->
+      <div class="tech-item size-md">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fas fa-database" style="font-size: 2rem; color: #336791;"></i>
+          </div>
+        </div>
+        <div class="tech-name">PostgreSQL</div>
+      </div>
+
+      <!-- Computer Networks (LG) -->
+      <div class="tech-item size-lg">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fas fa-network-wired" style="font-size: 2.2rem; color: #06B6D4;"></i>
+          </div>
+        </div>
+        <div class="tech-name">Computer Networks</div>
+      </div>
+
+      <!-- Scikit-learn (MD) -->
+      <div class="tech-item size-md">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fas fa-chart-line" style="font-size: 2rem; color: #F7931E;"></i>
+          </div>
+        </div>
+        <div class="tech-name">Scikit-learn</div>
+      </div>
+
+      <!-- JavaScript (MD) -->
+      <div class="tech-item size-md">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fab fa-js" style="font-size: 2.2rem; color: #F7DF1E;"></i>
+          </div>
+        </div>
+        <div class="tech-name">JavaScript</div>
+      </div>
+
+      <!-- Docker (SM) -->
+      <div class="tech-item size-sm">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fab fa-docker" style="font-size: 1.8rem; color: #2496ED;"></i>
+          </div>
+        </div>
+        <div class="tech-name">Docker</div>
+      </div>
+
+      <!-- SQL (SM) -->
+      <div class="tech-item size-sm">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fas fa-table" style="font-size: 1.8rem; color: #00758F;"></i>
+          </div>
+        </div>
+        <div class="tech-name">SQL</div>
+      </div>
+
+      <!-- MongoDB (SM) -->
+      <div class="tech-item size-sm">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fas fa-leaf" style="font-size: 1.8rem; color: #47A248;"></i>
+          </div>
+        </div>
+        <div class="tech-name">MongoDB</div>
+      </div>
+
+      <!-- Git / GitHub (SM) -->
+      <div class="tech-item size-sm">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fab fa-github" style="font-size: 1.8rem; color: #f3f4f6;"></i>
+          </div>
+        </div>
+        <div class="tech-name">Git/GitHub</div>
+      </div>
+
+      <!-- Streamlit (SM) -->
+      <div class="tech-item size-sm">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fas fa-sliders" style="font-size: 1.8rem; color: #FF4B4B;"></i>
+          </div>
+        </div>
+        <div class="tech-name">Streamlit</div>
+      </div>
+
+      <!-- pytest & Debugging (SM) -->
+      <div class="tech-item size-sm">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fas fa-vial" style="font-size: 1.8rem; color: #0A9EDC;"></i>
+          </div>
+        </div>
+        <div class="tech-name">pytest & Logging</div>
+      </div>
+
+      <!-- Pandas / Data (SM) -->
+      <div class="tech-item size-sm">
+        <div class="bubble-float">
+          <div class="tech-icon">
+            <i class="fas fa-cube" style="font-size: 1.8rem; color: #150458;"></i>
+          </div>
+        </div>
+        <div class="tech-name">Pandas / NumPy</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Showcase (Interactive Sliding Carousel with 5 Projects) -->
+  <section class="projects" id="projects">
+    <h2 class="section-heading">
+      <i class="fas fa-laptop-code"></i> Featured <span class="gradient-text">Projects Showcase</span>
+    </h2>
+    <p class="section-subtitle">
+      Use the arrows or drag to slide through all 5 production-ready full-stack & AI software applications.
+    </p>
+
+    <!-- Carousel Slider Container -->
+    <div class="projects-carousel-wrapper">
+      <button class="carousel-btn prev-btn" id="projPrevBtn" aria-label="Previous Project">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="carousel-btn next-btn" id="projNextBtn" aria-label="Next Project">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+
+      <div class="projects-carousel-track" id="projectsTrack">
+
+        <!-- Project Card 1: ARAIA -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./assets/images/araia_project.jpg" alt="ARAIA Project Showcase">
+            <span class="project-badge">Max Drawdown ↓ ~59%</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">ARAIA – Portfolio Stress Analytics</h3>
+            <p class="project-desc">
+              Cloud-deployable financial portfolio analytics platform evaluating diversification, risk under stress testing, and real-time portfolio optimization.
+            </p>
+            <ul class="project-bullets">
+              <li>Designed versioned REST APIs & data pipelines for stress testing & portfolio optimization.</li>
+              <li>Implemented FAISS-based retrieval recommendation engine for investment insights.</li>
+              <li>Reduced simulated max drawdown by ~59% through AI-driven diversification.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag-pill">Python</span>
+              <span class="tag-pill">FastAPI</span>
+              <span class="tag-pill">Scikit-learn</span>
+              <span class="tag-pill">React.js</span>
+              <span class="tag-pill">FAISS</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/" target="_blank" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+                <i class="fab fa-github"></i> Code Repo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2: Log Analyzer -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./assets/images/log_analyzer_project.jpg" alt="AI Log Analyzer Project Showcase">
+            <span class="project-badge">Automated RCA & Health</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">AI Log Analyzer & RCA Tool</h3>
+            <p class="project-desc">
+              Intelligent log analytics platform built to detect system failures, API errors, and operational anomalies from large-scale log streams.
+            </p>
+            <ul class="project-bullets">
+              <li>Automated error classification and root-cause analysis (RCA) with unit-tested logic.</li>
+              <li>Built searchable knowledge retrieval pipelines using FAISS for remediation.</li>
+              <li>Designed real-time health dashboards tracking error trends & infrastructure health.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag-pill">Python</span>
+              <span class="tag-pill">FastAPI</span>
+              <span class="tag-pill">PostgreSQL</span>
+              <span class="tag-pill">FAISS</span>
+              <span class="tag-pill">Structured Logging</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/" target="_blank" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+                <i class="fab fa-github"></i> Code Repo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 3: AI Exam Evaluator -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./assets/images/exam_evaluator_project.jpg" alt="AI Exam Evaluator Project Showcase">
+            <span class="project-badge">LLMs + OCR Engine</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">AI Exam Generator & Evaluator</h3>
+            <p class="project-desc">
+              End-to-end assessment platform generating personalized exams from uploaded syllabus documents using LLMs and automated grading.
+            </p>
+            <ul class="project-bullets">
+              <li>Automated evaluation pipelines for handwritten, descriptive & coding responses via OCR.</li>
+              <li>Designed REST services for document processing, question generation & analytics.</li>
+              <li>Built an interactive Streamlit dashboard for score tracking & performance breakdown.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag-pill">Python</span>
+              <span class="tag-pill">Node.js</span>
+              <span class="tag-pill">Streamlit</span>
+              <span class="tag-pill">Groq API</span>
+              <span class="tag-pill">OCR</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/" target="_blank" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+                <i class="fab fa-github"></i> Code Repo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 4: Eduswap -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./assets/images/eduswap_project.png" alt="Eduswap Educational Resource Exchange Platform Screenshot">
+            <span class="project-badge">Credit Barter System</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Eduswap – Resource Exchange</h3>
+            <p class="project-desc">
+              Full-stack web application enabling students to donate, exchange, and request educational resources via a credit-based barter system.
+            </p>
+            <ul class="project-bullets">
+              <li>Built RESTful APIs using Node.js & Express.js with Firebase Firestore data management.</li>
+              <li>Integrated Cloudinary for secure image upload, storage & asset processing.</li>
+              <li>Designed responsive UI featuring resource listings, item uploads & search architecture.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag-pill">HTML/CSS</span>
+              <span class="tag-pill">JavaScript</span>
+              <span class="tag-pill">Node.js</span>
+              <span class="tag-pill">Express.js</span>
+              <span class="tag-pill">Firebase</span>
+              <span class="tag-pill">Cloudinary</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/" target="_blank" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+                <i class="fab fa-github"></i> Code Repo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 5: World Master Game -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./assets/images/world_master_project.png" alt="World Master Geography Quiz Game Screenshot">
+            <span class="project-badge">Geography Quiz & Map</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">World Master – Geography Quiz Game</h3>
+            <p class="project-desc">
+              Interactive geography quiz game featuring Leaflet.js maps, country/capital modes, difficulty tiers, and timer/lives gameplay.
+            </p>
+            <ul class="project-bullets">
+              <li>Built interactive map gameplay using Leaflet.js with countries/capitals challenges.</li>
+              <li>Developed full-stack authentication & persistent leaderboard using PHP/MySQL with secure password hashing.</li>
+              <li>Architected structured game data for 50+ countries with coordinates & fun facts.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag-pill">JavaScript</span>
+              <span class="tag-pill">Leaflet.js</span>
+              <span class="tag-pill">HTML/CSS</span>
+              <span class="tag-pill">PHP</span>
+              <span class="tag-pill">MySQL</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/" target="_blank" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+                <i class="fab fa-github"></i> Code Repo
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Carousel Pagination Dots -->
+      <div class="carousel-dots" id="carouselDots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+        <span class="dot" data-index="3"></span>
+        <span class="dot" data-index="4"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- LeetCode Single Authentic Heatmap & Stats Section (@kush0809) -->
+  <section class="leetcode-section" id="leetcode">
+    <h2 class="section-heading">
+      <i class="fas fa-terminal"></i> LeetCode <span class="gradient-leetcode">Live Activity & Heatmap</span>
+    </h2>
+    <p class="section-subtitle">
+      Authentic live submission heatmap and activity metrics fetched directly for <strong>@kush0809</strong>.
+    </p>
+
+    <div class="leetcode-container">
+      <!-- Single Clean Live LeetCode Heatmap & Profile Card for @kush0809 -->
+      <div class="lc-live-card-wrapper">
+        <h3 style="font-size: 1.3rem;">LeetCode Profile & Heatmap (@kush0809)</h3>
+        <a href="https://leetcode.com/u/kush0809/" target="_blank">
+          <img src="https://leetcard.jacoblin.cool/kush0809?theme=dark&font=Outfit&ext=heatmap" alt="Live LeetCode Card and Heatmap for kush0809" class="lc-live-embed-img">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Achievements -->
+  <section class="cert-achieve-section" id="certifications">
+    <h2 class="section-heading">
+      <i class="fas fa-award"></i> Certifications & <span class="gradient-text">Achievements</span>
+    </h2>
+
+    <div class="cert-grid">
+      <!-- CCNA Certification -->
+      <div class="cert-card">
+        <div class="cert-icon-wrapper">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.3rem;">Cisco Certified Network Associate (CCNA)</h3>
+          <p style="color: var(--text-muted); font-size: 0.88rem;">
+            Routing & switching fundamentals, TCP/IP, VLANs, subnetting, and core network security concepts.
+          </p>
+        </div>
+      </div>
+
+      <!-- Cisco Intro AI -->
+      <div class="cert-card">
+        <div class="cert-icon-wrapper">
+          <i class="fas fa-robot"></i>
+        </div>
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.3rem;">Cisco Networking Academy – Intro to Modern AI</h3>
+          <p style="color: var(--text-muted); font-size: 0.88rem;">
+            Badge & Certificate (Issued Jun 2026) – Fundamentals of modern machine learning & AI systems.
+          </p>
+        </div>
+      </div>
+
+      <!-- Cisco Apply AI -->
+      <div class="cert-card">
+        <div class="cert-icon-wrapper">
+          <i class="fas fa-magnifying-glass-chart"></i>
+        </div>
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.3rem;">Cisco Networking Academy – Apply AI</h3>
+          <p style="color: var(--text-muted); font-size: 0.88rem;">
+            Analyze Customer Reviews (Badge & Certificate, Jun 2026) – Sentiment analysis & NLP workflows.
+          </p>
+        </div>
+      </div>
+
+      <!-- LeetCode Achievement -->
+      <div class="cert-card">
+        <div class="cert-icon-wrapper">
+          <i class="fas fa-code"></i>
+        </div>
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.3rem;">LeetCode Rating: 1655 (400+ Solved)</h3>
+          <p style="color: var(--text-muted); font-size: 0.88rem;">
+            400+ DSA problems solved on @kush0809 with strong foundation in algorithms and data structures.
+          </p>
+        </div>
+      </div>
+
+      <!-- Hackathon Finalist -->
+      <div class="cert-card">
+        <div class="cert-icon-wrapper">
+          <i class="fas fa-trophy"></i>
+        </div>
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.3rem;">HackO'Clock – Top 10 National Finalist</h3>
+          <p style="color: var(--text-muted); font-size: 0.88rem;">
+            Recognized among top 10 teams out of 120+ competing national teams for innovative problem-solving.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section class="contact" id="contact">
+    <h2 class="section-heading">
+      <i class="fas fa-paper-plane"></i> Get in <span class="gradient-text">Touch</span>
+    </h2>
+    <p class="section-subtitle">
+      Have a question or interested in collaborating? Send a message and let's discuss software systems.
+    </p>
+
+    <div class="contact-container">
+      <div class="contact-info-box">
+        <div class="contact-card-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">Direct Email</span>
+            <h4 style="font-size: 1rem;">kushagarwal0805@gmail.com</h4>
+          </div>
+        </div>
+
+        <div class="contact-card-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">Phone Contact</span>
+            <h4 style="font-size: 1rem;">+91-6394354239</h4>
+          </div>
+        </div>
+
+        <div class="contact-card-item">
+          <i class="fas fa-location-dot"></i>
+          <div>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">Location</span>
+            <h4 style="font-size: 1rem;">Noida Institute of Engineering & Technology, UP, India</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" id="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" class="form-control" placeholder="Hello Kush, I'd like to discuss a project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+          <span>Submit Message</span>
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Interactive AI Assistant Floating Chatbot Widget -->
+  <div class="chatbot-widget" id="chatbotWidget">
+    <!-- Floating Trigger Toggle Button -->
+    <button class="chatbot-toggle-btn" id="chatbotToggleBtn" title="Ask AI about Kush Agarwal">
+      <i class="fas fa-robot chatbot-icon"></i>
+      <span class="chatbot-pulse-dot"></span>
+      <span class="chatbot-label">Ask AI Assistant</span>
+    </button>
+
+    <!-- Glassmorphic Chat Window Drawer -->
+    <div class="chatbot-drawer" id="chatbotDrawer">
+      <div class="chatbot-header">
+        <div class="chatbot-header-info">
+          <div class="chatbot-sticker">
+            <img src="./assets/images/3d_bot.jpg" alt="Kush's AI assistant bot">
+          </div>
+          <div>
+            <h4>Kush's AI Assistant</h4>
+            <span class="online-indicator"><i class="fas fa-circle"></i> Resume & Profile Assistant</span>
+          </div>
+        </div>
+        <button class="chatbot-close-btn" id="chatbotCloseBtn" title="Close Chat">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <!-- Chat Conversation History -->
+      <div class="chatbot-messages" id="chatbotMessages">
+        <div class="chat-message bot-message">
+          <div class="msg-content">
+            👋 Hi there! I'm <strong>Kush Agarwal's AI Assistant</strong>. Ask me anything about Kush's technical skills, 5 projects, education (CSE-AI @ NIET), LeetCode stats (@kush0809), or how to get in touch!
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Suggestion Prompt Chips -->
+      <div class="chatbot-chips">
+        <button class="chip-btn" data-query="Tell me about Kush's top projects">🚀 Top Projects</button>
+        <button class="chip-btn" data-query="What is Kush's LeetCode rating?">⚡ LeetCode Stats</button>
+        <button class="chip-btn" data-query="What are Kush's tech skills?">💻 Tech Stack</button>
+        <button class="chip-btn" data-query="Where does Kush study and CGPA?">🎓 Education</button>
+        <button class="chip-btn" data-query="How can I contact Kush?">📬 Contact Info</button>
+      </div>
+
+      <!-- Chat Input Field & Send Button -->
+      <form class="chatbot-input-area" id="chatbotForm">
+        <input type="text" id="chatbotInput" placeholder="Ask about Kush's resume or projects..." autocomplete="off" required>
+        <button type="submit" id="chatbotSendBtn" title="Send message">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Designed with <i class="fas fa-heart" style="color: #ef4444;"></i> for <strong>Kush Agarwal</strong> | B.Tech CSE-AI Portfolio</p>
+  </footer>
+
+  <!-- Scroll Back to Top Button -->
+  <a href="#home" id="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- JavaScript CDN dependencies & App Script -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    if (window.particlesJS) {
+      particlesJS("particles-js", {
+        particles: {
+          number: { value: 60, density: { enable: true, value_area: 800 } },
+          color: { value: "#06b6d4" },
+          shape: { type: "circle" },
+          opacity: { value: 0.4, random: false },
+          size: { value: 3, random: true },
+          line_linked: {
+            enable: true,
+            distance: 140,
+            color: "#06b6d4",
+            opacity: 0.25,
+            width: 1
+          },
+          move: {
+            enable: true,
+            speed: 1.5,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "out",
+            bounce: false
+          }
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: { enable: true, mode: "grab" },
+            onclick: { enable: true, mode: "push" },
+            resize: true
+          },
+          modes: {
+            grab: { distance: 160, line_linked: { opacity: 0.6 } }
+          }
+        },
+        retina_detect: true
+      });
+    }
+  </script>
+  <script src="./js/app.js"></script>
+
+</body>
+
+</html>
