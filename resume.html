@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kush Agarwal · Resume</title>
+    <meta name="description" content="Kush Agarwal, backend engineer. Resume." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <style>
+      :root { --bg:#0a0908; --text:#f2eee6; --text-2:#c9c2b6; --text-3:#948c80; --line:#2a2621; --amber:#ffb000; --mono:"JetBrains Mono",ui-monospace,monospace; --sans:"Archivo",system-ui,sans-serif; }
+      * { box-sizing: border-box; }
+      body { margin:0; background:var(--bg); color:var(--text); font-family:var(--sans); -webkit-font-smoothing:antialiased; }
+      main { max-width: 780px; margin: 0 auto; padding: 56px 24px 80px; }
+      a { color: var(--amber); }
+      .back { font: 500 13px var(--mono); text-decoration: none; }
+      h1 { font-size: clamp(40px, 7vw, 64px); font-weight: 900; letter-spacing: -0.03em; margin: 28px 0 6px; line-height: 1; }
+      .role { font: 500 15px var(--mono); color: var(--text-3); margin: 0 0 18px; }
+      .contact { display: flex; flex-wrap: wrap; gap: 8px 20px; font: 500 14px var(--mono); margin-bottom: 36px; }
+      h2 { font: 600 12.5px var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--amber); margin: 40px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+      h3 { font-size: 20px; margin: 18px 0 2px; }
+      .meta { font: 500 13px var(--mono); color: var(--text-3); margin: 0 0 8px; }
+      p, li { color: var(--text-2); line-height: 1.6; font-size: 16px; }
+      ul { padding-left: 18px; margin: 6px 0; }
+      dl { display: grid; grid-template-columns: 140px 1fr; gap: 8px 16px; margin: 0; }
+      dt { font: 600 12px var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-3); padding-top: 3px; }
+      dd { margin: 0; color: var(--text); }
+      .print { margin-left: auto; }
+      @media (max-width: 600px) { dl { grid-template-columns: 1fr; } }
+      @media print { body { background: #fff; color: #000; } a { color: #000; } p, li, dd { color: #222; } h2 { color: #000; } .back, .print { display: none; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="back" href="./index.html">← Back to the ride</a>
+      <h1>Kush Agarwal</h1>
+      <p class="role">Software engineering / backend intern candidate · B.Tech CSE (AI), 2027</p>
+      <div class="contact">
+        <a href="mailto:kushagarwal0805@gmail.com">kushagarwal0805@gmail.com</a>
+        <a href="https://github.com/MARCIZOS" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/kushagarwal0805/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://leetcode.com/u/kush0809/" target="_blank" rel="noopener">LeetCode</a>
+        <a class="print" href="#" onclick="window.print();return false;">Print / save as PDF</a>
+      </div>
+
+      <p>B.Tech Computer Science undergraduate (graduating 2027) with hands-on experience designing and shipping scalable backend systems, versioned REST APIs and multi-tier applications in Python, FastAPI and JavaScript. Strong fundamentals in data structures, algorithms, operating systems and computer networks.</p>
+
+      <h2>Projects</h2>
+      <h3><a href="https://github.com/MARCIZOS/taskflow-pro" target="_blank" rel="noopener">TaskFlow Pro</a></h3>
+      <p class="meta">Grand Prize, Contata NCR Hackathon 2026 · Python · FastAPI · React · PostgreSQL · Docker</p>
+      <ul>
+        <li>Kanban board with a dependency engine: rejects circular links (shortest-path search names the loop), derives Blocked/Ready from the graph, and propagates delays as a maximum, never a sum.</li>
+        <li>Under 1 ms to propagate a delay through 1,000 tasks and 3,000 links; critical-path highlighting; AI-suggested dependencies that a person must accept.</li>
+      </ul>
+      <h3><a href="https://github.com/MARCIZOS/log_analyzer" target="_blank" rel="noopener">AI-Powered Log Analyzer &amp; Root-Cause Analysis</a></h3>
+      <p class="meta">Python · FastAPI · PostgreSQL · Redis Streams · FAISS · Ollama · React · Docker</p>
+      <ul>
+        <li>Dockerized Redis Streams ingestion that scales horizontally across consumer groups; pending messages from a dead worker are reclaimed.</li>
+        <li>Detects anomalies, groups failures into incidents, retrieves similar past incidents and runbooks with FAISS, and produces evidence-based RCA reports.</li>
+      </ul>
+      <h3><a href="https://github.com/MARCIZOS/portfolio_diversification" target="_blank" rel="noopener">ARAIA — Portfolio Diversification Under Macroeconomic Stress</a></h3>
+      <p class="meta">Live on AWS · Python · FastAPI · React · FAISS · SciPy · AWS (EC2, S3)</p>
+      <ul>
+        <li>Re-prices a portfolio inside a simulated macroeconomic shock, finds the riskiest correlation cluster, retrieves diversifiers with FAISS and proposes a bounded reallocation.</li>
+        <li>Reduced simulated stressed drawdown by 59%; versioned, unit-tested FastAPI APIs; every number computed deterministically, with the LLM only explaining.</li>
+      </ul>
+      <h3><a href="https://github.com/MARCIZOS/fairfix" target="_blank" rel="noopener">FairFix</a></h3>
+      <p class="meta">Nebius × NVIDIA Global AI Hackathon · Python · Pydantic · NVIDIA Nemotron · Tavily</p>
+      <ul>
+        <li>Reads a vehicle service bill line by line and checks each item against the official schedule, comparable part prices, warranty and recall facts.</li>
+        <li>Models read, code decides: deterministic rules make every call, each result shows its evidence, and it says "unable to verify" instead of guessing.</li>
+      </ul>
+      <h3><a href="https://github.com/MARCIZOS/ai_exam_generator" target="_blank" rel="noopener">AI Exam Generator &amp; Evaluator</a></h3>
+      <p class="meta">Node.js · Express · Groq · Tesseract.js OCR</p>
+      <ul>
+        <li>Generates MCQ, short-answer and coding questions from an uploaded chapter; evaluates photographed handwritten answers with OCR, per-question feedback and a letter grade.</li>
+      </ul>
+      <h3><a href="https://github.com/MARCIZOS/Rank-Radar" target="_blank" rel="noopener">Rank Radar</a> · <a href="https://subtle-meringue-e283eb.netlify.app/" target="_blank" rel="noopener">live demo</a></h3>
+      <p class="meta">JavaScript · CSS · Claude · Netlify</p>
+      <ul>
+        <li>Live-match companion for fantasy cricket: explains why your rank moved on every ball, scoring 2,500 rival teams from a seeded ball-by-ball engine, in English, Hinglish or Hindi.</li>
+      </ul>
+      <h3>Distributed Job Scheduler &amp; Task Queue</h3>
+      <p class="meta">Python · FastAPI · Redis · PostgreSQL · Docker · React</p>
+      <ul>
+        <li>Redis-backed queues, a PostgreSQL job store and Dockerized worker pools; 100% job completion at 6 jobs/sec across 3 workers, with retries and dead-letter handling.</li>
+      </ul>
+
+      <h2>Experience</h2>
+      <h3>Python Developer · LetsGrowMore</h3>
+      <p class="meta">Jul 2024 – Aug 2024</p>
+      <ul>
+        <li>Partnered with product stakeholders to gather and scope feature requirements, translating business needs into technical specs delivered through code review and agile delivery within sprint deadlines.</li>
+        <li>Built Python automation scripts (Pandas, Flask) to streamline recurring data-processing workflows and reduce manual effort.</li>
+      </ul>
+
+      <h2>Skills</h2>
+      <dl>
+        <dt>Languages</dt><dd>C++, Python, SQL, JavaScript</dd>
+        <dt>Core CS</dt><dd>Data structures & algorithms, object-oriented design, operating systems, computer networks, DBMS, complexity analysis</dd>
+        <dt>Backend</dt><dd>FastAPI, Node.js/Express.js, REST API design, Docker, Git/GitHub</dd>
+        <dt>Cloud & infra</dt><dd>AWS (EC2, S3), Redis, Docker</dd>
+        <dt>Databases</dt><dd>MySQL, PostgreSQL, MongoDB</dd>
+        <dt>Other</dt><dd>React.js, machine learning (Scikit-learn), FAISS</dd>
+      </dl>
+
+      <h2>Education</h2>
+      <h3>B.Tech, Computer Science & Engineering (AI)</h3>
+      <p class="meta">Noida Institute of Engineering & Technology · 2023 – 2027 · CGPA 8.66</p>
+      <p class="meta">Class XII (CBSE) 86.20% · Class X (CBSE) 94.00%</p>
+
+      <h2>Achievements</h2>
+      <ul>
+        <li>Grand Prize, Contata NCR Hackathon 2026 (TaskFlow Pro).</li>
+        <li>558+ DSA problems solved on LeetCode; 1938 contest rating (Knight).</li>
+        <li>Top 10 of 120+ teams, HackO'Clock national-level hackathon.</li>
+      </ul>
+
+      <h2>Certifications</h2>
+      <ul>
+        <li>Cisco Networking Academy — Apply AI: Analyze Customer Reviews; Introduction to Modern AI</li>
+        <li>Infosys Springboard — Generative AI, Python Programming, React.js, Deep Learning, C Programming</li>
+      </ul>
+    </main>
+  </body>
+</html>
